@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Helper</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f3f3f3;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #A50319;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .widget-container {
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .chat-instructions {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            color: #721c24;
+            animation: blink 1s linear infinite;
+        }
+
+        @keyframes blink {
+            0% {opacity: 1;}
+            50% {opacity: 0;}
+            100% {opacity: 1;}
+        }
+
+        .whatsapp-button {
+            background-color: #25D366;
+            border-radius: 5px;
+            padding: 10px 15px;
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .whatsapp-button img {
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+        }
+
+        .price-info {
+            color: #A50319;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Job Helper</h1>
+        <div class="widget-container">
+            <div class="chat-instructions" id="chat-instructions">
+                Click the chat icon in the bottom left corner to start chatting!
+            </div>
+            <iframe src="https://app.chatgptbuilder.io/bots/1705804/sw/?url=&color=%23A50319" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <a href="https://wa.me/0996982449?text=I%20need%20to%20subscribe%20to%20K1%2C000%20per%20month%20on%20Job%20Help" class="whatsapp-button" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/768px-WhatsApp.svg.png" alt="WhatsApp Icon"> Contact on WhatsApp
+</a>
+<div class="price-info">
+Get unlimited help for only K1,000 per month
+</div>
+<p>24 hrs support, job application updates, career guidance, job applications and all job-related help.</p>
+</div>
+<script>
+setTimeout(function() {
+var chatInstructions = document.getElementById('chat-instructions');
+chatInstructions.style.display = 'none';
+}, 5 * 60 * 1000); // 5 minutes
+</script>
+
+</body>
+</html>
